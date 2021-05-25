@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: data
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  mvc:
+    servlet:
+      path: /api
+
+
+logging:
+  level:
+    com:
+      chen: debug
