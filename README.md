@@ -1,6 +1,11 @@
 ### 数据权限
 项目架构：  `springboot` `mybatis-plus`
 
+## 演示
+![](https://i.loli.net/2021/05/25/PawkBRM28h7HbfW.png)
+
+![](https://i.loli.net/2021/05/25/5imZgQFjD4NbeuO.png)
+
 ### 说明
 拦截器如果配置要拦截的地址，是忽略掉 `application.yml` 里面的 `servlet - path` 的！
 
